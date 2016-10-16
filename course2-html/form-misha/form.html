@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+    <head>
+         <title>form</title>
+         <meta charset="UTF-8">
+				 <link rel="stylesheet" href="styles.css" type="text/css" media="screen, projection" />
+    </head>
+   <body>
+	     <form action="demo_form.asp" method="get">
+			      <label for="company"><span>*</span> Company:</label> <input type="text" id="company" name="company" class="textinput"><br/>
+            <label for="fname"><span>*</span> First name:</label> <input type="text" id="fname" name="first-name" class="textinput"><br/>
+            <label for="lname"><span>*</span> Last name:</label> <input type="text"  id="lname" name="last-name" class="textinput"><br/>
+						<label for="email"><span>*</span> Email Address:</label> <input type="text"  id="email" name="email-address" class="textinput"><br/>
+						<label for="title"><span>*</span> Title:</label> <input type="text"  id="title" name="title" class="textinput"><br/>
+						<label for="phone"><span>*</span> Phone:</label> <input type="text"  id="phone" name="phonetitle" class="textinput"><br/>
+						<label for="cancel-registration"> Cancel registration:</label><div class="proba"><input type="checkbox" name="cancel-registration" id="cancel-registration" value="cancel registration"></div><br/>
+            <label for="date"><span>*</span> 225 Training Session 2010:</label>
+						<select id="date">
+  					<option value="date">-- Select a date --</option>
+  					<option value=""></option>
+  					<option value=""></option>
+  					<option value=""></option>
+						</select><br/><br/>
+						
+	          <label><span>*</span> Job Function:</label>
+						<div class="job-func-div">
+	          <input type="radio" class="job-func" name="campaign-manager" value="campaign manager"><span class="job-func-span">Campaign Manager</span><br/>
+						<input type="radio" class="job-func" name="cmr-administration" value="CRM Administration"><span class="job-func-span">CRM Administration</span><br/>
+						<input type="radio" class="job-func" name="email-deployment" value="Email Deployment"><span class="job-func-span">Email Deployment</span><br/>
+						<input type="radio" class="job-func" name="partner" value="Partner"><span class="job-func-span">Partner</span><br/>
+						<input type="radio" class="job-func" name="employee" value="Employee"><span class="job-func-span">Employee</span><br/>
+						</div>
+						
+						<label for="dietary-req"> Dietary Requirements:</label> <input type="text" id="dietary-req" name="dietary requirements"><br/>
+            
+						<label for="expectations"> Expectations?:</label> <textarea rows="6" cols="40" id="expectations"></textarea><br/>
+
+	<input type="submit" class="submit-button" value="Submit">
+       </form>
+   </body>
+</html>

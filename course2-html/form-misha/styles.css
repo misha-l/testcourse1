@@ -1,0 +1,55 @@
+
+body
+ {
+	margin: 0;
+	padding: 40px 3%;
+ }
+form
+ {
+  float: left;
+	background: #D1D0CE;
+	padding: 20px;
+ }
+label, select, input
+ {
+ display: block;
+	float: left;
+	margin-top: 10px;
+ }
+label
+ {
+  clear: left;
+  width: 200px;
+ }
+input.textinput, select
+ {
+  width: 200px;
+ }
+select
+ {
+  margin-bottom: 18px;
+ }
+textarea
+ {
+   isplay: block;
+	float: left;
+	margin-top: 10px;
+ }
+
+.job-func-div
+ {
+  isplay: block;
+	float: left;
+	margin-top: 10px;
+  width: 60%;
+ }
+.job-func-span
+ {
+  line-height: 26px;
+ }
+.submit-button
+ {
+  display: block;
+	float: left;
+  margin-left: 40%;
+ }
